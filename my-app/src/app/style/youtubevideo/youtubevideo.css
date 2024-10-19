@@ -36,7 +36,7 @@
 .youtube-video-heading{
     padding: 25px 20px;
     color: #FAFAFA;
-    font-size: 33px;
+    font-size: 21px;
     font-weight: 700;
 }
 
@@ -86,4 +86,39 @@
     font-size: 20px;
     font-weight: 500;
    
+
+
 }
+
+
+@media (min-width:768px){
+  .youtube-video-heading{
+    padding: 25px 20px;
+    color: #FAFAFA;
+    font-size: 33px;
+    font-weight: 700;
+}
+}
+
+
+
+::-webkit-scrollbar {
+  width: 16px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  width: 14px;
+  background-color: #8a8989; 
+ 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #979191; 
+}
+
+

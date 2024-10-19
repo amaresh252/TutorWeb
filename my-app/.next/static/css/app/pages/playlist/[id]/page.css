@@ -1,0 +1,318 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/youtubevideo/youtubevideo.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.video-list{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 80%;
+    padding-right: 14px;
+    
+}
+
+.loader-container {
+    width: 100%;        
+    height: 3px;       
+    background-color: #FFFFFF;  
+    position: relative;
+  }
+  
+  .loader {
+    height: 100%;       
+    width: 0%;         
+    background-color: #F97316;  
+    position: absolute; 
+    transform-origin: left;   
+    animation: loading 3s ease-in-out infinite; 
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+
+.youtube-video-heading{
+    padding: 25px 20px;
+    color: #FAFAFA;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.prev-next{
+    padding: 55px 20px 25px 20px;
+}
+
+.prev-next-button{
+    display: flex;
+    justify-content: center;
+    background-color: #F97316;
+    color: #18181B;
+    font-size: 15px;
+    font-weight: 400;
+    width: 70px;
+    cursor: pointer;
+    
+}
+
+.prev-next-button:hover {
+    background-color: #e16d1a;
+    color: #18181B;
+}
+
+.prev-next-button1{
+    display: flex;
+    justify-content: center;
+    background-color: #27272a;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    width: 70px;
+}
+
+
+
+.single-video{
+    
+     color: #FAFAFA;
+     cursor: pointer;
+     background-color: #27272a;
+     border-radius: 10px;
+}
+
+.single-video-title{
+    padding: 25px 10px 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+   
+
+
+}
+
+
+@media (min-width:768px){
+  .youtube-video-heading{
+    padding: 25px 20px;
+    color: #FAFAFA;
+    font-size: 33px;
+    font-weight: 700;
+}
+}
+
+
+
+::-webkit-scrollbar {
+  width: 16px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  width: 14px;
+  background-color: #8a8989; 
+ 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #979191; 
+}
+
+
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/navbar/navbar.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    background-color: #F97316;
+    color: #18181B;
+    font-size: 15px;
+    font-weight: 400;
+    width: 70px;
+    
+}
+
+.navbar-dark{
+    z-index: 10;
+    -webkit-backdrop-filter:'blur(15px)';
+            backdrop-filter:'blur(15px)';
+}
+
+.login-button:hover {
+    background-color: #e16d1a;
+    color: #18181B;
+}
+
+.bi-moon{
+    font-size: 13px;
+    padding: 10px 10px;
+   cursor: pointer;
+}
+.bi-moon:hover{
+    background-color: #54545f4c;
+    
+    border-radius: 7px;
+}
+.bi-sun{
+    font-size: 13px;
+    padding: 10px 10px;
+   cursor: pointer;
+}
+.bi-sun:hover{
+    background-color: #54545f4c;
+    
+    border-radius: 7px;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-close{
+    font-size: 10px;
+}
+
+.btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.offcanvas{
+    background-color: #09090B;
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+
+.nav-link:hover{
+    background-color: #54545f4c;
+    padding-left: 1px;
+    padding-right: 6px;
+    border-radius: 7px;
+}
+
+.navbar-brand{
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.nav-third-section{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 2px 0;
+}
+
+@media  (max-width: 991px) {
+    .nav-third-section{
+        flex-direction: row-reverse;
+        margin: 0 3px;
+        gap: 60px;
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+        background: none;
+    }
+   #nav-link-home{
+  
+    color: #F97316;
+    
+   }
+   #nav-link-course{
+   
+    color: #F97316;
+   }
+   #nav-link-mock{
+   
+    color: #F97316;
+   }
+   #nav-link-resource{
+   
+    color: #F97316;
+   }
+   #nav-link-blogs{
+   
+    color: #F97316;
+   }
+   #nav-link-jobs{
+  
+    color: #F97316;
+   }
+   #nav-items-id{
+    padding-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+   }
+   #offcanvas-body-id{
+    display: grid;
+    justify-content: space-between;
+   }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/footer/footer.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+    background-color: #171717;
+    color: white;
+  }
+
+  .footer-title{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+  }
+
+  .footer-description{
+    color: #737373;
+    font-size: 14px;
+  }
+
+  .social-icon{
+    font-size: 18px;
+  }
+
+  .store-heading{
+    color: #737373;
+    font-size: 18px;
+  }
+
+  .footer-link-title{
+   
+    color: #E5E5E5;
+    font-size: 18.5px;
+  }
+
+  .footer-link{
+    color: #D4D4D4;
+    font-size: 15px;
+  }
+
+  .footer-link-list{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 20px;
+  }

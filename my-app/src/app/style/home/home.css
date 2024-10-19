@@ -210,3 +210,25 @@
         margin-bottom: 30px;
     }
  }
+ ::-webkit-scrollbar {
+    width: 16px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #555;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background-color: #8a8989; 
+   
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #979191; 
+  }
+  
+  
+  
+  

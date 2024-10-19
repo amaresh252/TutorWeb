@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const Navbar = () => {
   const [lightMode,setLightMode]=useState(false)
   return (
-    <nav className="navbar navbar-dark navbar-expand-lg px-4 fixed-top"  style={{background:'#09090B4C',backdropFilter:'blur(15px)' ,zIndex:'10'}}>
+    <nav className="navbar navbar-dark navbar-expand-lg px-4 fixed-top"  style={{background:'#09090B4C'}}>
   <div className="container-fluid   align-items-center">
     <a className="navbar-brand " href="/">Campusmonk</a>
     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >

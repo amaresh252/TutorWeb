@@ -1,12 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/pages/courses/page": "app/pages/courses/page.js",
-  "/pages/blogs/page": "app/pages/blogs/page.js",
-  "/pages/freeresources/page": "app/pages/freeresources/page.js",
   "/pages/login/page": "app/pages/login/page.js",
-  "/pages/mocktest/page": "app/pages/mocktest/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/pages/jobs/page": "app/pages/jobs/page.js",
-  "/pages/playlist/[id]/page": "app/pages/playlist/[id]/page.js"
+  "/pages/mocktest/page": "app/pages/mocktest/page.js",
+  "/pages/blogs/page": "app/pages/blogs/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

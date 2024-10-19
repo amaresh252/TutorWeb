@@ -55,7 +55,7 @@ import '../../style/home/blogs.css'
                         </div>
                     </div>
                     </div>
-                    <div className='row mx-1 w-100 h-50 rounded' style={{background:'#1e293b'}}>
+                    <div  className='row black-box mx-1 w-100 h-50 rounded' style={{background:'#1e293b'}}>
                         
                     </div>
                 </div>
@@ -68,7 +68,7 @@ import '../../style/home/blogs.css'
                 <img className='img-fluid flex-grow-1' height={200} width={200} src='https://cdn.hashnode.com/res/hashnode/image/upload/v1711444844938/nFIcObtGA.png?w=1000&h=250&auto=compress,format&format=webp' alt="description" />
                 </div>
             </div>
-            <div className='px-5' style={{fontSize:'14.5px',color:' #F1F5F9'}}>
+            <div className='px-5 p-2' style={{fontSize:'14.5px',color:' #F1F5F9'}}>
                 <ul className='d-flex gap-4 text-white justify-content-end'>
                 <li className="no-bullet">Archive</li><li>Privacy policy</li><li>
                 Terms</li>
@@ -89,7 +89,7 @@ import '../../style/home/blogs.css'
             </div>
             </div>
 
-            <div className='d-flex text-white justify-content-center pt-3'>
+            <div className='d-flex text-white text-center justify-content-center pt-3'>
                 <p style={{color:'#94A3B8', fontSize:'90%'}}>Powered by Hashnode - Build your developer hub.</p>
                 
             </div>

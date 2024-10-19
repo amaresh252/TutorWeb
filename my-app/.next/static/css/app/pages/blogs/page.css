@@ -1,0 +1,117 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/home/blogs.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.top-icons:hover{
+    background-color: #d2d2ed4c;
+   cursor: pointer;
+   border-radius: 100%;
+}
+
+.follow{
+    display: flex;
+    gap:10px;
+    background-color: #ffffff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.follow:hover{
+    cursor: pointer;
+    background-color: #f2f0f9;
+}
+
+.bi-envelope-plus{
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 100%;
+}
+
+.bi-envelope-plus:hover{
+    cursor: pointer;
+    background-color: #8989af4c;
+}
+@media(max-width:767px){
+    .black-box{
+        display: none;
+    }
+}
+
+
+.blog-nav-sections1{
+    font-size: 17px;
+    font-weight: 500;
+}
+.blog-nav-sections2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFFB3;
+}
+.blogs-nav{
+    border-bottom: solid 1px #d2d2ed4c;
+}
+.blogs-footer{
+    border-top: solid 1px #d2d2ed4c;
+}
+.hr-line{
+    border: solid;
+    border-top: 1.5px;
+    width: 50px;
+    
+}
+
+.blogs-heading{
+    color: #F1F5F9;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 15px 9px 3px 9px;
+}
+.blogs-subheading{
+    color: #94A3B8;
+    font-size: 19px;
+    padding: 0 9px;
+}
+.blogs-side-heading{
+    color: #F1F5F9;
+    font-size: 20px;
+    font-weight: 700;
+}
+.no-bullet {
+    list-style-type: none;
+  }
+
+  .blogs-footer-button{
+    color: #94A3B8;
+    border: solid;
+    border-color: #94A3B8;
+    border-width: 0.5px;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background-color: #0F172A;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  ::-webkit-scrollbar {
+    width: 16px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #555;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background-color: #8a8989; 
+   
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #979191; 
+  }
+  
+  
+  
+  

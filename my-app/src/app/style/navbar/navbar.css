@@ -10,6 +10,11 @@
     
 }
 
+.navbar-dark{
+    z-index: 10;
+    backdrop-filter:'blur(15px)';
+}
+
 .login-button:hover {
     background-color: #e16d1a;
     color: #18181B;

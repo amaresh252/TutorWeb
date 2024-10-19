@@ -1,0 +1,473 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/home/home.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+
+
+.home{
+    background-color: #09090B;
+   
+  background-repeat: no-repeat;
+
+}
+
+
+.loader-container {
+    width: 100%;        
+    height: 3px;       
+    background-color: #FFFFFF;  
+    position: relative;
+  }
+  
+  .loader {
+    height: 100%;       
+    width: 0%;         
+    background-color: #F97316;  
+    position: absolute; 
+    transform-origin: left;   
+    animation: loading 3s ease-in-out infinite; 
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+
+.landing-section{
+    padding: 120px 30px 100px 20px;
+}
+
+
+
+.heading{
+    color: #FAFAFA;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 99%;
+}
+
+.description{
+    color: #A1A1AA;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.subject{
+    color: #FAFAFA;
+    font-size: 14.5px;
+    font-weight: 400;
+}
+
+.btn-getstart{
+    background-color: #F97316;
+    padding: 13px 65px;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-getstart:hover{
+    background-color: #e16d1a;
+    color: #18181B;
+}
+.btn-watch-video{
+    background-color: #27272A;
+    padding: 13px 56.5px;
+    color: #FAFAFA;
+    font-weight: 500;
+    font-size: 14.5px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.btn-watch-video:hover{
+    background-color: #222225;
+}
+
+#front-img{
+   display: flex;
+   justify-content: end;
+}
+
+.slider1{
+    height: 200px;
+    width: 50%;
+    transform: translate(325px,77px);
+}
+.slider2{
+    height: 3px;
+    width: 3px;
+    transform: translate(900px,-90px);
+}
+.slider3{
+    height: 150px;
+    width: 120px;
+    transform: translate(-250px,-258px);
+}
+
+.profile-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.num-student-text{
+    color: #A1A1AA;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 18px 100px 0 100px;
+}
+
+
+.course-title{
+    font-family:sans-serif;
+    font-weight: 700;
+}
+
+.course-subtitle{
+    font-family:sans-serif;
+    font-size: 17px;
+    color: #A1A1AA;
+}
+
+.course-text{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.expand{
+    text-decoration: none;
+    color: #F97316;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.expand:hover{
+    text-decoration:underline;
+}
+
+
+.course-page-heading{
+    margin: 73px 0;
+    padding: 35px 70px;
+}
+
+.home .bi-arrow-left-short{
+    color: #FFFFFF;
+    background-color: #09090B;
+    font-size: 25px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 0.001px;
+    border-color: #A1A1AA;
+    margin-right: 22px;
+ }
+ .home .bi-arrow-right-short{
+    color: #FFFFFF;
+    background-color: #09090B;
+    font-size: 25px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 0.001px;
+    border-color: #A1A1AA;
+    margin-left: 22px;
+ }
+
+
+ @media(min-width: 991px ){
+    .home{
+        background: radial-gradient(
+      circle at top right, 
+      rgba(90, 54, 29, 0.5) 4%,
+      transparent 10%
+    ),
+    radial-gradient(
+        circle at left 700px, /* Position of the light *//* Orange color with opacity */
+        #102d35 1%,
+        transparent 10%
+      ),
+      #09090B;
+    }
+    .landing-section{
+        padding: 180px 30px 100px 30px;
+    }
+ }
+
+ @media (min-width:768px){
+    .heading{
+        color: #FAFAFA;
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 99%;
+    }
+    .description{
+        color: #A1A1AA;
+        font-size: 19px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+ }
+ ::-webkit-scrollbar {
+    width: 16px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #555;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background-color: #8a8989; 
+   
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #979191; 
+  }
+  
+  
+  
+  
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/card/coursecard.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.learn-more-text{
+    color: #F97316;
+    font-weight: 500;
+    text-decoration:none;
+}
+.learn-more-text:hover{
+    text-decoration: underline;
+}
+
+.course-card-price{
+    font-size: 17px;
+    font-weight: 500;
+}
+.course-card-title{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.course-card-description{
+    color: #A1A1AA;
+}
+
+.course-card{
+    background-color: #09090B;
+    border: solid;
+    border-color: #A1A1AA;
+    border-width: 0.25px;
+    border-radius: 10px;
+}
+
+.course-card:hover{
+    background-color: rgba(52, 36, 26, 0.5);
+}
+
+.course-card-img{
+    border-radius: 10px;
+}
+
+
+.course-card-without-desc{
+    padding-bottom: 23.5px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/navbar/navbar.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    background-color: #F97316;
+    color: #18181B;
+    font-size: 15px;
+    font-weight: 400;
+    width: 70px;
+    
+}
+
+.navbar-dark{
+    z-index: 10;
+    -webkit-backdrop-filter:'blur(15px)';
+            backdrop-filter:'blur(15px)';
+}
+
+.login-button:hover {
+    background-color: #e16d1a;
+    color: #18181B;
+}
+
+.bi-moon{
+    font-size: 13px;
+    padding: 10px 10px;
+   cursor: pointer;
+}
+.bi-moon:hover{
+    background-color: #54545f4c;
+    
+    border-radius: 7px;
+}
+.bi-sun{
+    font-size: 13px;
+    padding: 10px 10px;
+   cursor: pointer;
+}
+.bi-sun:hover{
+    background-color: #54545f4c;
+    
+    border-radius: 7px;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-close{
+    font-size: 10px;
+}
+
+.btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.offcanvas{
+    background-color: #09090B;
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+
+.nav-link:hover{
+    background-color: #54545f4c;
+    padding-left: 1px;
+    padding-right: 6px;
+    border-radius: 7px;
+}
+
+.navbar-brand{
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.nav-third-section{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 2px 0;
+}
+
+@media  (max-width: 991px) {
+    .nav-third-section{
+        flex-direction: row-reverse;
+        margin: 0 3px;
+        gap: 60px;
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+        background: none;
+    }
+   #nav-link-home{
+  
+    color: #F97316;
+    
+   }
+   #nav-link-course{
+   
+    color: #F97316;
+   }
+   #nav-link-mock{
+   
+    color: #F97316;
+   }
+   #nav-link-resource{
+   
+    color: #F97316;
+   }
+   #nav-link-blogs{
+   
+    color: #F97316;
+   }
+   #nav-link-jobs{
+  
+    color: #F97316;
+   }
+   #nav-items-id{
+    padding-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+   }
+   #offcanvas-body-id{
+    display: grid;
+    justify-content: space-between;
+   }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/style/footer/footer.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+    background-color: #171717;
+    color: white;
+  }
+
+  .footer-title{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+  }
+
+  .footer-description{
+    color: #737373;
+    font-size: 14px;
+  }
+
+  .social-icon{
+    font-size: 18px;
+  }
+
+  .store-heading{
+    color: #737373;
+    font-size: 18px;
+  }
+
+  .footer-link-title{
+   
+    color: #E5E5E5;
+    font-size: 18.5px;
+  }
+
+  .footer-link{
+    color: #D4D4D4;
+    font-size: 15px;
+  }
+
+  .footer-link-list{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 20px;
+  }

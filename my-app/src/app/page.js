@@ -174,14 +174,14 @@ export default function Home() {
     <div className="home">
     
       <Navbar/>
-      {playlists.length===0 &&<div className="loader-container" style={{zIndex:'11'}} >
+      {playlists.length===0 &&<div className="loader-container position-fixed" style={{zIndex:'11'}} >
     <div className="loader"></div>
     </div>}
       <div className="landing-section mb-3">
       <div className="row ">
         <div className="col-lg-6 col-md-12 col-sm-12 text-white">
           <div>
-            <h1 className="heading">Let's crack your next placement Exam</h1>
+            <h1 className="heading">Let&#39;s crack your next placement Exam</h1>
             <p className="description mt-3">Tons of resources and expert mentorship, with hands-on practice sets. Which will help you to crack your dream placement.</p>
             <div className="row ">
               <div className="col-md-6 col-sm-6 d-flex gap-2">
@@ -216,10 +216,10 @@ export default function Home() {
             </div>
             <div className="d-flex align-items-center mt-2">
              <div className="position-relative">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" className="img-fluid profile-icon " />
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-4.webp" className="img-fluid profile-icon position-absolute" style={{top: '1px',left:' 28px'}} />
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp" className="img-fluid profile-icon position-absolute" style={{top: '1px',left:' 58px'}} />
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-2.webp" className="img-fluid profile-icon position-absolute" style={{top: '1px',left:' 88px'}} />
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" className="img-fluid profile-icon " alt="description"/>
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-4.webp" className="img-fluid profile-icon position-absolute" style={{top: '1px',left:' 28px'}} alt="description"/>
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp" className="img-fluid profile-icon position-absolute" style={{top: '1px',left:' 58px'}} alt="description"/>
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-2.webp" className="img-fluid profile-icon position-absolute" style={{top: '1px',left:' 88px'}} alt="description"/>
                 </div>
                 
                <p className="num-student-text">100,000+ Happy students!</p>

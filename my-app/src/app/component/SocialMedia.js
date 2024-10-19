@@ -14,7 +14,7 @@ export const SocialMedia = () => {
                 <div className="col-lg-4 col-md-4  col-sm-6  ">
                 <Link href="#">
                     <div className=" align-self-center pb-1 m-3 pt-3   rounded" style={{background:'#18181B'}}>
-                        <img src='/image/youtube.png' className="img-fluid" height={40} width={40}/>
+                        <img src='/image/youtube.png' className="img-fluid" height={40} width={40} alt="description"/>
                         <p className="text-white social-media-name pt-3">Youtube</p>
                     </div>
                 </Link>
@@ -22,7 +22,7 @@ export const SocialMedia = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                 <Link href="#">
                     <div className=" align-self-center pb-1 m-3 pt-3 rounded" style={{background:'#18181B'}}>
-                        <img src='/image/Instagram_icon.png' className="img-fluid" height={40} width={40}/>
+                        <img src='/image/Instagram_icon.png' className="img-fluid" height={40} width={40} alt="description"/>
                         <p className="text-white social-media-name pt-3">Instagram</p>
                     </div>
                 </Link>
@@ -30,7 +30,7 @@ export const SocialMedia = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                 <Link href="#">
                     <div className=" align-self-center pb-1 m-3 pt-3  rounded" style={{background:'#18181B'}}>
-                        <img src='/image/whats_app_icon.png' className="img-fluid" height={40} width={40}/>
+                        <img src='/image/whats_app_icon.png' className="img-fluid" height={40} width={40} alt="description"/>
                         <p className="text-white social-media-name pt-3">WhatsApp</p>
                     </div>
                 </Link>
@@ -39,7 +39,7 @@ export const SocialMedia = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                 <Link href="#">
                     <div className=" align-self-center pb-1 m-3 pt-3 px-1 rounded" style={{background:'#18181B'}}>
-                        <img src='/image/Telegram-icon.png' className="img-fluid" height={40} width={40}/>
+                        <img src='/image/Telegram-icon.png' className="img-fluid" height={40} width={40} alt="description"/>
                         <p className="text-white social-media-name pt-3">Telegram</p>
                     </div>
                 </Link>
@@ -47,7 +47,7 @@ export const SocialMedia = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                 <Link href="#">
                     <div className=" align-self-center pb-1 m-3 pt-3 rounded" style={{background:'#18181B'}}>
-                        <img src='/image/linkedin_icon.png' className="img-fluid" height={40} width={40}/>
+                        <img src='/image/linkedin_icon.png' className="img-fluid" height={40} width={40} alt="description"/>
                         <p className="text-white social-media-name pt-3">LinkedIn</p>
                     </div>
                 </Link>
@@ -55,7 +55,7 @@ export const SocialMedia = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                 <Link href="#">
                     <div className=" align-self-center pb-1 m-3 pt-3  rounded" style={{background:'#18181B'}}>
-                        <img src='/image/twitter_logo.png' className="img-fluid" height={40} width={40}/>
+                        <img src='/image/twitter_logo.png' className="img-fluid" height={40} width={40} alt="description"/>
                         <p className="text-white social-media-name pt-3">Twitter</p>
                     </div>
                 </Link>

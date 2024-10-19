@@ -102,11 +102,11 @@ const Login = () => {
             <div className="col-lg-5 login-left">
                 <h2 className="login-left-heading">The future of education is here</h2>
                 <p className="login-left-subheading mt-3">With an all in one platform for the teaching world</p>
-                <img src="/image/loginCover.svg" className="img-fluid mt-3"/>
+                <img src="/image/loginCover.svg" className="img-fluid mt-3" alt="description"/>
             </div>
             {!otpPage?
             <div className="col-lg-7 login-right">
-            <img src="/image/loginLogo.png" height={200} width={200} className="img-fluid mb-4 login-right-logo"/>
+            <img src="/image/loginLogo.png" height={200} width={200} className="img-fluid mb-4 login-right-logo" alt="description"/>
             <p className="login-right-heading">Welcome to Campusmonk by Rachit Rastogi!</p>
             {
               showEmailorMobile?

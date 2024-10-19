@@ -6,7 +6,7 @@ import '../../style/home/blogs.css'
         <nav className='fluid-container blogs-nav' style={{background:'#0F172AB3'}}>
             <div className='d-flex align-items-center px-4 pt-4'>
                 <div className='flex-grow-1'>
-                <img className='img-fluid flex-grow-1' height={240} width={240} src='https://cdn.hashnode.com/res/hashnode/image/upload/v1711444844938/nFIcObtGA.png?w=1000&h=250&auto=compress,format&format=webp' />
+                <img className='img-fluid flex-grow-1' height={240} width={240} src='https://cdn.hashnode.com/res/hashnode/image/upload/v1711444844938/nFIcObtGA.png?w=1000&h=250&auto=compress,format&format=webp' alt="description" />
                 </div>
                 <div className='d-flex gap-3 align-items-center   ' style={{fontSize:"21px"}}>
                 <i className="bi bi-search top-icons px-2 py-1 text-white"></i>
@@ -32,11 +32,11 @@ import '../../style/home/blogs.css'
         <main className='pb-5' style={{background:'#000000'}}>
             <div className='row mx-4 my-5'>
                 <div className='col-md-8 text-white'>
-                    <img className='img-fluid rounded' src='https://cdn.hashnode.com/res/hashnode/image/upload/v1712839684679/7e899836-029e-4755-b7b5-741a125f2df0.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'/>
+                    <img className='img-fluid rounded' src='https://cdn.hashnode.com/res/hashnode/image/upload/v1712839684679/7e899836-029e-4755-b7b5-741a125f2df0.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp' alt="description"/>
                     <h1 className='blogs-heading'>TCS Syllabus 2024 (Updated)</h1>
                     <h5 className='blogs-subheading'>TCS NQT Detailed Syllabus 2024 For people looking for TCS Syllabus 2024 for both On-Campus and Off-Campus Placements, this post will answer all the questions for you. This article covers all the information about TCS Syllabus 2024. As per the latest ...</h5>
                     <div  className='d-flex align-items-top mt-3'>
-                        <div><img className='img-fluid'height={30} width={30} src='/image/computer-icon.png'/></div>
+                        <div><img className='img-fluid'height={30} width={30} alt="description" src='/image/computer-icon.png'/></div>
                         <div className='d-flex flex-column'>
                             <h6 style={{fontSize:'16.5px',fontWeight:'600',color:'#94A3B8'}} >shubham paliwal</h6>
                             <div style={{marginTop:'-7px',color:'#94A3B8'}} className='d-flex gap-2'><i className="bi bi-book "></i><p>3 min read</p></div>
@@ -45,10 +45,10 @@ import '../../style/home/blogs.css'
                 </div>
                 <div className='col-md-4 px-4'>
                     <div className='row' >
-                            <img className='img-fluid rounded' src='https://cdn.hashnode.com/res/hashnode/image/upload/v1683525313231/RC4cg5koq.png?w=1600&h=840&fit=crop&crop=entropy&auto=format&auto=compress,format&format=webp'/>
+                            <img className='img-fluid rounded' src='https://cdn.hashnode.com/res/hashnode/image/upload/v1683525313231/RC4cg5koq.png?w=1600&h=840&fit=crop&crop=entropy&auto=format&auto=compress,format&format=webp' alt="description"/>
                         <h5 className='blogs-side-heading  px-4 pt-4'>Tech Mahindra Exam Process 2024 For Freshers</h5>
                         <div  className='d-flex px-4 align-items-top mt-3'>
-                        <div><img className='img-fluid'height={30} width={30} src='/image/computer-icon.png'/></div>
+                        <div><img className='img-fluid'height={30} width={30} src='/image/computer-icon.png' alt="description"/></div>
                         <div className='d-flex flex-column'>
                             <h6 style={{fontSize:'16.5px',fontWeight:'600',color:'#94A3B8'}} >shubham paliwal</h6>
                             <div style={{marginTop:'-7px',color:'#94A3B8'}} className='d-flex gap-2'><i className="bi bi-book "></i><p>3 min read</p></div>
@@ -65,7 +65,7 @@ import '../../style/home/blogs.css'
         <footer  className='blogs-footer' style={{background:'#020617'}}>
         <div className='d-flex align-items-center px-5 pt-5'>
                 <div className='flex-grow-1'>
-                <img className='img-fluid flex-grow-1' height={200} width={200} src='https://cdn.hashnode.com/res/hashnode/image/upload/v1711444844938/nFIcObtGA.png?w=1000&h=250&auto=compress,format&format=webp' />
+                <img className='img-fluid flex-grow-1' height={200} width={200} src='https://cdn.hashnode.com/res/hashnode/image/upload/v1711444844938/nFIcObtGA.png?w=1000&h=250&auto=compress,format&format=webp' alt="description" />
                 </div>
             </div>
             <div className='px-5' style={{fontSize:'14.5px',color:' #F1F5F9'}}>

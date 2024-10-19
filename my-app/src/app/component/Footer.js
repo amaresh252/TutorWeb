@@ -91,7 +91,7 @@ export const Footer = () => {
             >
               <img className="img-fluid soci" src="/image/Play_Store.png" 
                 height={50}
-                width={110} />
+                width={110} alt="description" />
             </a>
             <a
               href="#"
@@ -101,6 +101,7 @@ export const Footer = () => {
                 src="/image/App_Store.png"
                 height={60}
                 width={160}
+                alt="description"
               />
             </a>
           </div>

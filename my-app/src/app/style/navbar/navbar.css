@@ -1,0 +1,136 @@
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    background-color: #F97316;
+    color: #18181B;
+    font-size: 15px;
+    font-weight: 400;
+    width: 70px;
+    
+}
+
+.login-button:hover {
+    background-color: #e16d1a;
+    color: #18181B;
+}
+
+.bi-moon{
+    font-size: 13px;
+    padding: 10px 10px;
+   cursor: pointer;
+}
+.bi-moon:hover{
+    background-color: #54545f4c;
+    
+    border-radius: 7px;
+}
+.bi-sun{
+    font-size: 13px;
+    padding: 10px 10px;
+   cursor: pointer;
+}
+.bi-sun:hover{
+    background-color: #54545f4c;
+    
+    border-radius: 7px;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-close{
+    font-size: 10px;
+}
+
+.btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.offcanvas{
+    background-color: #09090B;
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+
+.nav-link:hover{
+    background-color: #54545f4c;
+    padding-left: 1px;
+    padding-right: 6px;
+    border-radius: 7px;
+}
+
+.navbar-brand{
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.nav-third-section{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 2px 0;
+}
+
+@media  (max-width: 991px) {
+    .nav-third-section{
+        flex-direction: row-reverse;
+        margin: 0 3px;
+        gap: 60px;
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+        background: none;
+    }
+   #nav-link-home{
+  
+    color: #F97316;
+    
+   }
+   #nav-link-course{
+   
+    color: #F97316;
+   }
+   #nav-link-mock{
+   
+    color: #F97316;
+   }
+   #nav-link-resource{
+   
+    color: #F97316;
+   }
+   #nav-link-blogs{
+   
+    color: #F97316;
+   }
+   #nav-link-jobs{
+  
+    color: #F97316;
+   }
+   #nav-items-id{
+    padding-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+   }
+   #offcanvas-body-id{
+    display: grid;
+    justify-content: space-between;
+   }
+}

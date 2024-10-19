@@ -1,0 +1,45 @@
+.social-media-title{
+    font-weight: 700;
+    font-size: 31px;
+}
+
+.social-media-subtitle{
+    font-family:sans-serif;
+    font-size: 16px;
+    color: #A1A1AA;
+    padding: 0 50px;
+    margin: 0 100px;
+    font-weight: 400;
+}
+
+.social-media-list{
+    padding: 50px 300px;
+
+}
+
+.social-media-main{
+    background-color: #27272A;
+    padding: 110px 10px;
+}
+
+.social-media-name:hover{
+    text-decoration: underline;
+}
+
+@media  (max-width: 576px) {
+    .social-media-title{
+        padding: 0 25px;
+    }
+    .social-media-subtitle{
+        text-align: left;
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+   
+}
+@media  (max-width: 991px) {
+    .social-media-list{
+        padding: 50px 100px;
+    
+    }
+}

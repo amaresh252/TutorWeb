@@ -1,0 +1,42 @@
+.footer {
+    background-color: #171717;
+    color: white;
+  }
+
+  .footer-title{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+  }
+
+  .footer-description{
+    color: #737373;
+    font-size: 14px;
+  }
+
+  .social-icon{
+    font-size: 18px;
+  }
+
+  .store-heading{
+    color: #737373;
+    font-size: 18px;
+  }
+
+  .footer-link-title{
+   
+    color: #E5E5E5;
+    font-size: 18.5px;
+  }
+
+  .footer-link{
+    color: #D4D4D4;
+    font-size: 15px;
+  }
+
+  .footer-link-list{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 20px;
+  }

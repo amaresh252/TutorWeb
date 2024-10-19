@@ -1,0 +1,43 @@
+.learn-more-text{
+    color: #F97316;
+    font-weight: 500;
+    text-decoration:none;
+}
+.learn-more-text:hover{
+    text-decoration: underline;
+}
+
+.course-card-price{
+    font-size: 17px;
+    font-weight: 500;
+}
+.course-card-title{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.course-card-description{
+    color: #A1A1AA;
+}
+
+.course-card{
+    background-color: #09090B;
+    border: solid;
+    border-color: #A1A1AA;
+    border-width: 0.25px;
+    border-radius: 10px;
+}
+
+.course-card:hover{
+    background-color: rgba(52, 36, 26, 0.5);
+}
+
+.course-card-img{
+    border-radius: 10px;
+}
+
+
+.course-card-without-desc{
+    padding-bottom: 23.5px;
+}

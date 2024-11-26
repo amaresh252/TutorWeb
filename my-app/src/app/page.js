@@ -145,7 +145,7 @@ export default function Home() {
   ];
 
   const API_KEY = 'AIzaSyCHoc9rpNRP5xeEJRpHmuxd7I__MfF6KwY';
-  const CHANNEL_ID = 'UCky03MonS3REdCXCvOfua2g';
+  const CHANNEL_ID = 'UCtLj4BjaQkltZ6NfLnmEigg';
 
   const [playlists, setPlaylists] = useState([]);
 
